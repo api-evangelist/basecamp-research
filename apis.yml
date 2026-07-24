@@ -1,8 +1,18 @@
 aid: basecamp-research
 name: Basecamp Research
-description: 'Basecamp Research is a company surfaced as a portfolio company of true-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Basecamp Research is a London-based biotech company mapping global genetic
+  biodiversity to power AI-based design of biological systems. Its core asset is BaseGraph,
+  a Neo4j-backed knowledge graph of billions of biological relationships assembled from
+  novel protein and genome sequences collected under access-and-benefit-sharing partnerships
+  with biodiversity-rich countries. On top of this data it builds foundation models and
+  tools including EDEN (a large-scale biology sequence model), BaseFold (3D protein
+  structure prediction that improves on AlphaFold2 for large, complex structures and
+  small-molecule interactions), and BaseScan (an automated annotation pipeline). Basecamp
+  works with pharma and biotech partners on drug discovery and enzyme/protein design, and
+  has collaborated with NVIDIA to bring BaseFold to the BioNeMo platform. Backed by True
+  Ventures. This profile is maintained in the API Evangelist network; Basecamp Research
+  currently exposes no public self-serve developer API - data and models are accessed via
+  partnerships, and product docs sit behind an authenticated portal.'
 url: https://raw.githubusercontent.com/api-evangelist/basecamp-research/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +20,32 @@ x-backed-by:
 - true-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://avatars.githubusercontent.com/u/77401656?v=4
 tags:
 - Company
 - Healthcare
+- Biotechnology
+- Life Sciences
+- Artificial Intelligence
+- Machine Learning
+- Protein Structure
+- Genomics
+- Knowledge Graph
+- Drug Discovery
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +53,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/basecamp-research-domain-security.yml
 - type: Website
   url: https://www.basecamp-research.com/
+- type: GitHubOrganization
+  url: https://github.com/Basecamp-Research
+- type: Blog
+  url: https://medium.com/@basecamp-research
+- type: LinkedIn
+  url: https://uk.linkedin.com/company/basecamp-research
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
