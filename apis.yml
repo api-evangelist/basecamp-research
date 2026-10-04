@@ -52,7 +52,7 @@ tags:
 - Biotechnology
 - Life Sciences
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Protein Structure
 - Genomics
 - Knowledge Graph
@@ -68,6 +68,7 @@ tags_raw:
 - Genomics
 - Knowledge Graph
 - Drug Discovery
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
